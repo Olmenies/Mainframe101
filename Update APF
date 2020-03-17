@@ -1,0 +1,11 @@
+## Dynamic
+
+1. /D PROG,APF
+2. /SETPROG APF,ADD,DSNAME=dsn,VOLUME=volume
+3. TSO PARMLIB,UPDATE(nn)
+4. TSO PARMLIB,CHECK(nn)
+
+## Permanent
+
+1. Add the below entry to SYS*.PARMLIB(PROGnn) --> Look at IEASYSnn which suffix has the LINKLIST
+  APF ADD DSN(dsn                           ) VOL(volume) --> Omitting VOL sets SMS by default
