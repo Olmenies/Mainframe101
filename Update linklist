@@ -1,0 +1,15 @@
+## Dynamic
+
+1. /D PROG,LNKLST
+2. /SETPROG LNKLST,DEFINE,NAME=LNKLSTnn,COPYFROM=current
+3. /SETPROG LNKLST,ADD,NAME=LNKLSTnn,DSNAME=dsn
+4. /SETPROG LNKLST,ACTIVATE,NAME=LNKLSTnn
+5. /SETPROG LNKLST,UPDATE,JOB=*
+6. /C LLA
+7. /S LLA,SUB=MSTR
+8. /D PROG,LNKLST
+
+## Permanent
+
+1. Add the below entry to SYS*.PARMLIB(PROGnn) --> Look at IEASYSnn which suffix has the LINKLIST
+  LNKLST ADD NAME(LNKLSTnn) DSN(dsname) VOL(SYSTW0) --> Omitting VOL sets SMS by default
