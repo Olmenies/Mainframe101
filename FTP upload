@@ -1,0 +1,4 @@
+1. Open Linux terminal
+2. Issue ftp -node-
+3. If it's going to be added to a dataset: cd 'HLQ.SQL.LLQ'
+4. If it's going to be added to the OMVS segment: Navigate with ftp's commands
