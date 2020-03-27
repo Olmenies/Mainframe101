@@ -9,6 +9,8 @@
 7. /S LLA,SUB=MSTR
 8. /D PROG,LNKLST
 
+* 6 and 7 can be replaced for an LLA REFRESH
+
 ## Permanent
 
 1. Add the below entry to SYS*.PARMLIB(PROGnn) --> Look at IEASYSnn which suffix has the LINKLIST
