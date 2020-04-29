@@ -1,4 +1,20 @@
 1. Open Linux terminal
 2. Issue ftp -node-
 3. If it's going to be added to a dataset: cd 'HLQ.SQL.LLQ'
-4. If it's going to be added to the OMVS segment: Navigate with ftp's commands
+4. If it's going to be added to the OMVS segment: Navigate with ftp's linux commands
+
+
+Example of DS upload via ftp:
+ftp> bin
+200 Representation type is Image
+ftp> site blksize=1024 recfm=fb lrecl=1024 tracks pri=1500
+200 SITE command was accepted
+ftp> put 'ce822003.pop'
+local: 'ce822003.pop' remote: 'ce822003.pop'
+local: 'ce822003.pop': No such file or directory
+ftp> put ce822003.pop
+local: ce822003.pop remote: ce822003.pop
+227 Entering Passive Mode (159,208,204,101,105,98)
+125 Storing data set SFTW.SMT.V8R2U0.CE822003.POP
+250 Transfer completed successfully.
+19648512 bytes sent in 38.3 secs (512.62 Kbytes/sec)
