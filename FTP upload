@@ -18,3 +18,5 @@ local: ce822003.pop remote: ce822003.pop
 125 Storing data set SFTW.SMT.V8R2U0.CE822003.POP
 250 Transfer completed successfully.
 19648512 bytes sent in 38.3 secs (512.62 Kbytes/sec)
+
+DCBDSN=dataset -> To bring ther parms
