@@ -1,1 +1,9 @@
+###ISPF TEXT EDITOR COMMANDS
+
+###MVS COMMANDS
 /D SMS,VOLUME(volume) -> See if displayed volume is SMS managed
+/D IPLINFO
+/D M=CPU 
+/SET PROD=(nn) -> REFRESH SYS1.PARMLIB(IFREPRDnn)
+
+###TSO COMMANDS
