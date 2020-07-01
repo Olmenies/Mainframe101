@@ -5,5 +5,7 @@
 /D IPLINFO
 /D M=CPU 
 /SET PROD=(nn) -> REFRESH SYS1.PARMLIB(IFREPRDnn)
+/F LLA,REFRESH -> Refresh the whole LLA
+/F LLA,UPDATE=xx -> 
 
 ###TSO COMMANDS
