@@ -4,11 +4,13 @@ WORK IN PROGRES...
 
 ###MVS COMMANDS
 /D SMS,VOLUME(volume) -> See if displayed volume is SMS managed
-/D IPLINFO
-/D M=CPU 
+/D IPLINFO -> Display IPL information
+/D M=CPU -> Display CPU information
 /SET PROD=(nn) -> REFRESH SYS1.PARMLIB(IFREPRDnn)
 /F LLA,REFRESH -> Refresh the whole LLA
-/F LLA,UPDATE=xx -> 
+/F LLA,UPDATE=xx -> Refresh LLA with SYS1.PARMLIB(CSVLLAxx) member
 /D PROG,LNKLIST -> Display Linklist
+/RO lpar,command -> Route command to another lpar. You can use
+/RO *ALL,command -> Route coomand to all lpars of the sysplex
 
 ###TSO COMMANDS
