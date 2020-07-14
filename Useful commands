@@ -9,5 +9,6 @@ WORK IN PROGRES...
 /SET PROD=(nn) -> REFRESH SYS1.PARMLIB(IFREPRDnn)
 /F LLA,REFRESH -> Refresh the whole LLA
 /F LLA,UPDATE=xx -> 
+/D PROG,LNKLIST -> Display Linklist
 
 ###TSO COMMANDS
