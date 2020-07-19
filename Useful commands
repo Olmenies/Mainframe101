@@ -14,3 +14,6 @@ WORK IN PROGRES...
 /RO *ALL,command -> Route coomand to all lpars of the sysplex
 
 ###TSO COMMANDS
+BPXMTEXT UnixErrorCode -> Shows a definition of the error (like a qw) -> e.g: BPXMTEXT 0B8C0013
+
+###OMVS COMMANDS
