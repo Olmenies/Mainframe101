@@ -12,6 +12,7 @@ WORK IN PROGRES...
 /D PROG,LNKLIST -> Display Linklist
 /RO lpar,command -> Route command to another lpar. You can use
 /RO *ALL,command -> Route coomand to all lpars of the sysplex
+/v 1800,console -> Vary consoles on/off
 
 ###TSO COMMANDS
 BPXMTEXT UnixErrorCode -> Shows a definition of the error (like a qw) -> e.g: BPXMTEXT 0B8C0013
