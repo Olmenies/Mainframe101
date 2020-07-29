@@ -18,5 +18,4 @@ WORK IN PROGRES...
 BPXMTEXT UnixErrorCode -> Shows a definition of the error (like a qw) -> e.g: BPXMTEXT 0B8C0013
 SEND 'message' USER(user) -> Sends a TSO message
 
-
 ###OMVS COMMANDS
