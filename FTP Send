@@ -1,0 +1,8 @@
+1. TSO OMVS
+2. ftp ip
+3. userid
+4. password
+5. EBCDIC
+6. BLOCK
+7. SITE BLKSIZE=27998 RECFM=U LRECL=0 TRACKS PRI=2000
+8. PUT 'hlq.slq.llq.$SFTWDMP'
