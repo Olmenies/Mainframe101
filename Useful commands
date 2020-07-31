@@ -13,6 +13,8 @@ WORK IN PROGRES...
 /RO lpar,command -> Route command to another lpar. You can use
 /RO *ALL,command -> Route coomand to all lpars of the sysplex
 /V 1800,console -> Vary consoles on/off
+/$S PRTnn -> Start SDSF printer
+/$P PRTnn -> Stop SDSF printer
 
 ###TSO COMMANDS
 BPXMTEXT UnixErrorCode -> Shows a definition of the error (like a qw) -> e.g: BPXMTEXT 0B8C0013
