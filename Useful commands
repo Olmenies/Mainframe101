@@ -16,6 +16,9 @@ WORK IN PROGRES...
 /$S PRTnn -> Start SDSF printer
 /$P PRTnn -> Stop SDSF printer
 /D IOS,CONFIG -> Display IODF config
+/SETPROG LNKLST,UNALLOCATE -> Desaloca linklist
+/SETPROG LNKLST,ALLOCATE -> Aloca linklist
+/D PROG,LNKLST,USERS,NAME=xxxx -> 
 
 ###TSO COMMANDS
 BPXMTEXT UnixErrorCode -> Shows a definition of the error (like a qw) -> e.g: BPXMTEXT 0B8C0013
