@@ -21,7 +21,7 @@ WORK IN PROGRES...
 /D PROG,LNKLST,USERS,NAME=xxxx -> 
 /D GRS,RES=()
 
-=d grs,res=(*,sys1.oasis.*)
+/d grs,res=(*,sys1.oasis.*)
 
 ###TSO COMMANDS
 BPXMTEXT UnixErrorCode -> Shows a definition of the error (like a qw) -> e.g: BPXMTEXT 0B8C0013
