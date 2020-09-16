@@ -4,6 +4,7 @@
 2. /SETPROG APF,ADD,DSNAME=dsn,VOLUME=volume 
     ###Note -> If dataet is in SMS, use command /SETPROG APF,ADD,DSNAME=dsn,SMS
     ###Note -> VOLMUE/SMS is mandatory
+    ###Note -> To delete a dataset, use /SETPROG APF,DELETE,DSNAME=dsn,...
 
 ## Permanent
 
