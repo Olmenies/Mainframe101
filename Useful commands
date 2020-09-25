@@ -20,6 +20,7 @@ WORK IN PROGRES...
 /SETPROG LNKLST,ALLOCATE -> Aloca linklist
 /D PROG,LNKLST,USERS,NAME=xxxx -> 
 /D GRS,RES=()
+/$D I -> Display inits
 
 /d grs,res=(*,sys1.oasis.*)
 
