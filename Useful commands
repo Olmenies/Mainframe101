@@ -21,7 +21,7 @@ WORK IN PROGRES...
 /D PROG,LNKLST,USERS,NAME=xxxx -> 
 /D GRS,RES=()
 /$D I -> Display inits
-
+/c xxxxx,dump -> Baja la STC y toma un dump
 /d grs,res=(*,sys1.oasis.*)
 
 ###TSO COMMANDS
