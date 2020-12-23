@@ -1,8 +1,20 @@
-1. Open Linux terminal
-2. Issue ftp -node-
-3. If it's going to be added to a dataset: cd 'HLQ.SQL.LLQ'
-4. If it's going to be added to the OMVS segment: Navigate with ftp's linux commands
+Connection:
+1. Open your linux console :)
+2. ftp <hostname>
+3. <user>
+4. <password>
 
+Navigation:
+1. lcd /local/path/
+
+Transfer:
+1. ascii OR bin
+2. get <'dataset.name.on.host'> <local_file_name> OR put <local_file_name> <'dataset.name.on.host'>
+
+###
+Note: You can also cd on host and then get/put the dataset specifying only the LLQ
+Note: Remember that you might require to use ebcdic instead of bin when dealing with mainframes :)
+###
 
 Example of DS upload via ftp:
 ftp> bin
