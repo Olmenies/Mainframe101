@@ -29,3 +29,4 @@ BPXMTEXT UnixErrorCode -> Shows a definition of the error (like a qw) -> e.g: BP
 SEND 'message' USER(user) -> Sends a TSO message
 
 ###OMVS COMMANDS
+df /this/is/a/path -> Show what is mounted there
