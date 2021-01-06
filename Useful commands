@@ -23,6 +23,8 @@ WORK IN PROGRES...
 /$D I -> Display inits
 /c xxxxx,dump -> Baja la STC y toma un dump
 /d grs,res=(*,sys1.oasis.*)
+/SETPROG APF,ADD,DSNAME=nombre.del.dataset,VOL=volumen
+/SETPROG APF,DELETE,DSNAME=nombre.del.dataset,VOL=volumen
 
 ###TSO COMMANDS
 BPXMTEXT UnixErrorCode -> Shows a definition of the error (like a qw) -> e.g: BPXMTEXT 0B8C0013
