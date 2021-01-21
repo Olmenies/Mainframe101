@@ -25,6 +25,9 @@ WORK IN PROGRES...
 /d grs,res=(*,sys1.oasis.*)
 /SETPROG APF,ADD,DSNAME=nombre.del.dataset,VOL=volumen
 /SETPROG APF,DELETE,DSNAME=nombre.del.dataset,VOL=volumen
+/D U,VOL=volser-> Display unit information on defined volser
+/D U,IPLVOL -> Display unit information on IPLED volser (more info at D IPLINFO)
+/D U,,ONLINE or OFFLINE-> Display all online/offline volumes
 
 ###TSO COMMANDS
 BPXMTEXT UnixErrorCode -> Shows a definition of the error (like a qw) -> e.g: BPXMTEXT 0B8C0013
