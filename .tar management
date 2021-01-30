@@ -1,0 +1,9 @@
+Untar file in OMVS:
+
+1. Upload .tar file as bin on the desired path
+2. Issue command tar -xvf file 
+2b. You can use -C /path/of/extraction to chose a different path
+
+Tar file in local machine:
+1. Move the desired files to a directory
+2. Issue command tar -cvf /path/of/files to compress the files
