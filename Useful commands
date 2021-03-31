@@ -12,7 +12,7 @@ WORK IN PROGRES...
 /D PROG,LNKLIST -> Display Linklist
 /RO lpar,command -> Route command to another lpar. You can use
 /RO *ALL,command -> Route coomand to all lpars of the sysplex
-/V 1800,console -> Vary consoles on/off
+/V *,console -> Vary consoles on/off -> You can change * to a specific console, for example 1800
 /$S PRTnn -> Start SDSF printer
 /$P PRTnn -> Stop SDSF printer
 /D IOS,CONFIG -> Display IODF config
