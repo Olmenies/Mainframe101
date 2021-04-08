@@ -31,6 +31,7 @@ WORK IN PROGRES...
 /XDUMP ALL -> 
 $djobq,spool=(percent>=3) -> Muestra salidas del spool que ocupen más del x %
 $PO JQ,JM=JRB -> Borra las salidas del JRB del spool
+/D ASM,PAGE -> Muestra estado de los page datasets
 
 
 ###TSO COMMANDS
