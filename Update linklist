@@ -15,4 +15,7 @@
 ## Permanent
 
 1. Add the below entry to SYS*.PARMLIB(PROGnn) --> Look at IEASYSnn which suffix has the LINKLIST
-  LNKLST ADD NAME(LNKLSTnn) DSN(dsname) VOL(SYSTW0) --> Omitting VOL sets SMS by default
+  LNKLST ADD NAME(LNKLSTnn) DSN(dsname) VOL(vol) --> Omitting VOL sets SMS by default
+  
+  * At IPL, the Master Catalog is read, then the PARMLIB member is read and then User Catalogs are read.
+  if de dataset to be added is not on Master Catalog, you have to add the VOLUME parm EVEN IF IT'S ON A SMS MANAGED VOLUME
