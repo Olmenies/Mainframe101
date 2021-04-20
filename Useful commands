@@ -34,6 +34,7 @@ $PO JQ,JM=JRB -> Borra las salidas del JRB del spool
 /D ASM,PAGE -> Muestra estado de los page datasets
 /v cn(*),activate -> 
 /D R,R -> Muestra mensajes pendientes de respuesta
+/ULOG CLOSE -> Limpia el ulog
 
 
 ###TSO COMMANDS
