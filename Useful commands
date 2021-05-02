@@ -1,5 +1,8 @@
 WORK IN PROGRES...
 
+###LOCAL COMMANDS
+ ssh host -l username -> Connects to the lpar's USS
+
 ###ISPF TEXT EDITOR COMMANDS
 
 ###MVS COMMANDS
