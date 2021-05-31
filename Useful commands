@@ -37,7 +37,7 @@ $PO JQ,JM=JRB -> Borra las salidas del JRB del spool, it does not purge active t
 /D ASM,PAGE -> Muestra estado de los page datasets
 /v cn(*),activate -> 
 /D R,R -> Muestra mensajes pendientes de respuesta
-/ULOG CLOSE -> Limpia el ulog
+ULOG CLOSE -> Limpia el ulog -> No es un comando de MVS, así que no lleva barra pepu
 
 
 ###TSO COMMANDS
